@@ -1,0 +1,19 @@
+ERROR 1040: Too many connections
+
+
+
+MySQL command line tool and type,
+
+show variables like "max_connections";
+
+
+This will return you something like this.
+
++-----------------+-------+
+| Variable_name   | Value |
++-----------------+-------+
+| max_connections | 100   |
++-----------------+-------+
+
+
+set global max_connections = 2000;

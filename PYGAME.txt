@@ -1,0 +1,8 @@
+pip install pygame==2.0.3
+
+OR 
+
+pip install pygame
+
+IN CMD PROMPT 
+COULDNT FIND A LINK :(
